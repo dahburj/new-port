@@ -1,0 +1,13 @@
+/* Semantic UI styling */
+.button:not(.icon), .ui.basic.inverted.button:not(.icon),
+.ui.basic.buttons:not(.icon) .button:not(.icon), .ui.basic.button:not(.icon) {
+  font-family: 'Roboto', sans-serif;
+}
+
+body::-webkit-scrollbar {
+  width: 1rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(255,255,255,0.5);
+}
